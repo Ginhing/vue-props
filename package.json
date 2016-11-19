@@ -1,0 +1,14 @@
+{
+  "name": "vue-props",
+  "version": "1.0.0",
+  "description": "handy validation for Vue props",
+  "main": "main",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ginhing <poke5464@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^17.0.3"
+  }
+}
