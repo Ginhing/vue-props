@@ -2,7 +2,7 @@
   "name": "vue-props",
   "version": "1.0.0",
   "description": "handy validation for Vue props",
-  "main": "main",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
@@ -10,5 +10,16 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^17.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ginhing/vue-props.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "bugs": {
+    "url": "https://github.com/Ginhing/vue-props/issues"
+  },
+  "homepage": "https://github.com/Ginhing/vue-props#readme"
 }
