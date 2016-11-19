@@ -1,11 +1,11 @@
-# Vue-props
+# vuept
 
 Another style to declare the props type for vue components.
 
-support these [types](./types.js)
+Support these [types](./types.js)
 
 ```javascript
-import {func, num, str} from 'vue-props'
+import {func, num, str} from 'vuept'
 //...
 {
   props: {

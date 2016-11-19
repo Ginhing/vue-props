@@ -1,7 +1,7 @@
 {
-  "name": "vue-props",
+  "name": "vuept",
   "version": "1.0.0",
-  "description": "handy validation for Vue props",
+  "description": "handy style of validation for prop types of Vue",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ginhing/vue-props.git"
+    "url": "git+https://github.com/Ginhing/vuept.git"
   },
   "keywords": [
     "vue"
   ],
   "bugs": {
-    "url": "https://github.com/Ginhing/vue-props/issues"
+    "url": "https://github.com/Ginhing/vuept/issues"
   },
-  "homepage": "https://github.com/Ginhing/vue-props#readme"
+  "homepage": "https://github.com/Ginhing/vuept#readme"
 }
