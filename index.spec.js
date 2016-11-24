@@ -15,9 +15,9 @@ describe('vue props', function () {
     })
   })
 
-  it('accept basic type', () => {
+  it('unsupport optional type without default', () => {
     typeKeys.forEach(t =>
-      expect(props[t]).toEqual({ type: types[t] })
+      expect(props[t].type).toBeUndefined()
     )
   })
 

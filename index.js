@@ -8,13 +8,13 @@ const props = {
 const proto = {
   get required() {
     return {
-      type: this.type,
+      type: this._type,
       required: true
     }
   },
   default(_default) {
     return {
-      type: this.type,
+      type: this._type,
       default: _default
     }
   }
@@ -22,8 +22,7 @@ const proto = {
 
 Object.keys(types).forEach(t => {
   props[t] = Object.create(proto, {
-    type: {
-      enumerable: true,
+    _type: {
       value: types[t]
     }
   })
