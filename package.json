@@ -1,15 +1,19 @@
 {
   "name": "vuept",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "handy style of validation for prop types of Vue",
-  "main": "index.js",
+  "main": "dist/vuept.js",
   "scripts": {
+    "build": "rollup -c",
     "test": "jest"
   },
   "author": "Ginhing <poke5464@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^17.0.3"
+    "babel-preset-latest": "^6.16.0",
+    "jest": "^17.0.3",
+    "rollup": "^0.37.0",
+    "rollup-plugin-babel": "^2.7.1"
   },
   "repository": {
     "type": "git",

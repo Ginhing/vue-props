@@ -1,4 +1,4 @@
-const types = require('./types')
+import types from './types'
 
 const props = {
   validator(func) {
@@ -28,4 +28,4 @@ Object.keys(types).forEach(t => {
   })
 })
 
-module.exports = props
+export default props

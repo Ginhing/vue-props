@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   num: Number,
   str: String,
   bool: Boolean,
